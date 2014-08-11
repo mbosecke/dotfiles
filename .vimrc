@@ -10,8 +10,8 @@
 " General
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " pathogen is used for plugin autoloading
-"call pathogen#infect()
-"call pathogen#helptags()
+call pathogen#infect()
+call pathogen#helptags()
 
 " Misc Setup
 set nocompatible
@@ -29,8 +29,8 @@ let mapleader = ","
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Solarized theme (ITS JUST SO DAMN PRETTY)
 syntax enable
-"set background=dark
-"colorscheme solarized
+set background=dark
+colorscheme solarized
 
 " show line numbers, ruler, and incomplete commands
 set number

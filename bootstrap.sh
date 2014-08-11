@@ -8,6 +8,7 @@
 dir=~/dotfiles
 olddir=~/dotfiles_old
 files=".bash_profile .vimrc .gitconfig"
+directories=".vim"
 
 #######
 
@@ -22,11 +23,18 @@ echo "Changing to the $dir directory"
 cd $dir
 echo "...done"
 
+# handle files
 for file in $files; do
 	echo "Moving any existing dotfiles from ~ to $olddir"
 	mv ~/$file ~/dotfiles_old/
 	echo "Creating symlink to $file in home directory"
     ln -s $dir/$file ~/$file
+done
+
+# handle directories
+for directory in $directories; do
+    echo "Creating symlink to $directory"
+    test -d ~/$directory || ln -s "$dir/$directory" ~/$directory
 done
 
 echo "Complete"
