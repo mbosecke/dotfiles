@@ -12,7 +12,7 @@ link to the contents of the new dotfiles directory.
 ## Adding New Vim Plugin
 ```
 cd ~/dotfiles
-git submodule add git://github.com/altercation/vim-colors-solarized.git ~/dotfiles/.vim/bundle/vim-colors-solarized
+git submodule add git://github.com/altercation/vim-colors-solarized.git ~/dotfiles/vim/bundle/vim-colors-solarized
 ```
 
 
