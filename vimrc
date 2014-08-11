@@ -54,14 +54,10 @@ set wildmode=list:longest,list:full
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" NERDTree plugin
+" Command-T Plugin
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" show NERDTree with ,n
-"nnoremap <Leader>n :NERDTree<CR>
-
-" show hidden files in NERDTree by default
-"let g:NERDTreeShowHidden=1
-
+let g:CommandTMaxHeight=20
+let g:CommandTMaxFiles=20000
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Searching

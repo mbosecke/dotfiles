@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/mbosecke/dotfiles/.git'
 let g:netrw_dirhist_2='/home/mbosecke/dotfiles/.git/modules'
 let g:netrw_dirhist_3='/home/mbosecke/dotfiles/.git/modules/.vim'
 let g:netrw_dirhist_4='/home/mbosecke/dotfiles/.git/modules/.vim/bundle'
 let g:netrw_dirhist_5='/home/mbosecke/dotfiles/.git/modules/.vim/bundle/vim-colors-solarized'
 let g:netrw_dirhist_6='/home/mbosecke/dotfiles/.git'
+let g:netrw_dirhist_7='/home/mbosecke/dotfiles'
+let g:netrw_dirhist_8='/home/mbosecke/Workspace/postgresql'

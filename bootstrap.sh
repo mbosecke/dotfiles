@@ -7,7 +7,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="bash_profile vimrc gitconfig"
+files="bash_profile aliases exports functions vimrc gitconfig"
 directories="vim"
 
 #######
