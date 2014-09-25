@@ -27,10 +27,7 @@ let mapleader = ","
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " User Interface
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Solarized theme (ITS JUST SO DAMN PRETTY)
 syntax enable
-set background=dark
-colorscheme solarized
 
 " show line numbers, ruler, and incomplete commands
 set number
