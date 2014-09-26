@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/mnt/ntfs/Users/mitchell/Workspace/emailer/.svn'
+let g:netrw_dirhist_2='/home/forcorp.local/mitchell/Documents/P723 - Stream Crossings/ATS On Device Project'
+let g:netrw_dirhist_3='/home/forcorp.local/mitchell/Documents/P723 - Stream Crossings'
+let g:netrw_dirhist_4='/home/forcorp.local/mitchell/dotfiles'
