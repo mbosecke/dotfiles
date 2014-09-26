@@ -7,13 +7,8 @@ My own dotfiles.
 * Run `bootstrap.sh`. This will create symlinks in your home folder that 
 link to the contents of the new dotfiles directory. It will store backups
 of your existing dotfiles in a new directory called dotfiles_old
-
-
-## Adding New Vim Plugin
-```
-cd ~/dotfiles
-git submodule add git://github.com/altercation/vim-colors-solarized.git ~/dotfiles/vim/bundle/vim-colors-solarized
-```
+* The gitconfig file contains personal info that should be changed if any
+one other than myself uses these files.
 
 
 
