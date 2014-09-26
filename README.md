@@ -5,12 +5,8 @@ My own dotfiles.
 
 * Clone the git repository to your home folder.
 * Run `bootstrap.sh`. This will create symlinks in your home folder that 
-link to the contents of the new dotfiles directory.
-* Set up the color pallete for your terminal. If using gnome, install from https://github.com/Anthony25/gnome-terminal-colors-solarized.git
-* The vim plugin Command-T requires installation from source:
-** cd ~/dotfiles/vim/bundle/command-t/ruby/command-t
-** ruby extconf.rb
-** make
+link to the contents of the new dotfiles directory. It will store backups
+of your existing dotfiles in a new directory called dotfiles_old
 
 
 ## Adding New Vim Plugin
