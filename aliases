@@ -3,4 +3,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias tailf="tail -n 1000 -f"
+alias du1="du -h --max-depth=1"
+alias du2="du -h --max-depth=2"
 
