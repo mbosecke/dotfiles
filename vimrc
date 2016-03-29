@@ -74,14 +74,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-" folding
-set foldenable
-set foldmethod=syntax
-set foldlevel=1         " fold functions, not classes
-let php_folding=1       " enable php folding
-map <Leader>f zR<CR>    " open all
-map <Leader>F zM<CR>    " close all
-
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Moving around, tabs, and buffers
